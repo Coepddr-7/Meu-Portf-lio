@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/compras.png" type="image/x-icon">
+    <title>Pedro Ferreira | Portifólio</title>
+</head>
+
+<body>
+    
+        <header class="cabecalho">
+            <h2 class="cmc"><span class="nome">Pedro</span><span class="dev">Dev</span></h2>
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+             <div class="hamburguer" id="hamburguer">
+                ☰
+            </div>
+        </header>
+    <main class="container">
+        <br>
+        <div class="apresentacao" id="inicio">
+            <div class="texto">
+                <p>Olá, eu sou o</p> <br>
+                <h1 class="identificacao">Pedro<span class="sobrenome">Ferreira</span></h1> <br>
+                <p>Desenvolvedor Front-End</p>
+                <p>Sou apaixonado por experiências web bonitas, funcionais e responsivas.</p>
+            </div>
+            <img class="foto" src="img/eu.jpeg" alt="Foto de Pedro Ferreira" >
+        </div>
+    </main>
+
+<section class="titulo-sobre" id="sobre">
+
+    <h2 class="sobre">Sobre mim</h2>
+
+    <div class="txt">
+      <p class="texto"> Meu nome é <i><strong>Pedro Ferreira</strong></i> e sou um desenvolvedor Front-End. Tenho foco em criar experiências web bonitas, funcionais e responsivas.<br> Estou sempre aprendendo novas tecnologias e aprimorando minhas habilidades<br> para entregar soluções de alta qualidade aos meus clientes, e buscando sempre<br> me manter atualizado com as tendências do mercado e me evoluir profissionalmente. 
+    </p>
+
+        <div class="habilidades-box">
+            <h2 class="habilidades">Habilidades</h2>
+
+            <ul class="menu-sobre">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Cursando ADS</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+        <section class="trabalhos" id="projetos">
+            <h2 class="sobre-projeto">Projetos</h2>
+
+        <div class="projetos">
+                <div class="clone-mercado">
+                <a href="https://coepddr-7.github.io/clone-mercado-livre/" target="_blank" class="mercado"><img src="img/mercado livre.webp" alt="mercado-livre" class="mercado-2"></a>
+                <h2>Clone-mercado livre</h2> 
+                <br>
+                <p><strong>Aqui ainda estou aprendendo melhor sobre HTML E CSS e JS</strong></p>
+            </div>
+        
+            <div class="petshop">
+                <a href="https://coepddr-7.github.io/layout-petshop/" target="_blank"> <img src="img/topo.png" alt="petshop" class="img-pet"></a>
+                <h2 class="sobre-petshop">Petshop</h2> 
+                <p><strong>Fiz esse layout no curso na Udemy</strong></p>
+            </div>
+        </div>
+    </section>
+
+        <footer class="final" id="contato">
+            <div class="images-final">
+                <a href="https://github.com/Coepddr-7" target="_blank"><img src="img/placa-do-github.png" alt="github" ></a>
+                <a href="https://www.linkedin.com/in/pedro-ferreira-879594291/"><img src="img/linkedin.png" alt="linked"></a>
+                <a href="https://www.instagram.com/mobi_rgnorte/?hl=pt-br"><img src="img/instagram (3).png" alt="insta" class="insta"></a>
+            </div>
+            <br>
+            <p class="final-2">&copy; PedroDev 2026 - Todos os direito reservados.</p>
+
+        </footer>
+
+    <script>
+    const hamburguer = document.getElementById("hamburguer");
+    const menu = document.getElementById("menu");
+
+    hamburguer.addEventListener("click", () => {
+    hamburguer.classList.toggle("ativo");
+    menu.classList.toggle("ativo");
+});
+    </script>
+</body>
+</html>
