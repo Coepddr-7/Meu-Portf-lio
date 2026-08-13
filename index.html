@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/portifolio.png" type="image/x-icon">
+    <title>Pedro Ferreira | Portfólio</title>
+</head>
+
+<body>
+    
+        <header class="cabecalho">
+            <h2 class="cmc"><span class="nome">Pedro</span><span class="dev">Dev</span></h2>
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+             <div class="hamburguer" id="hamburguer">
+                ☰
+            </div>
+        </header>
+    <main class="container">
+        <br>
+        <div class="apresentacao" id="inicio">
+            <div class="texto">
+                <p>Olá, eu sou </p>
+                
+                    <h2 class="identificacao">Pedro<span class="sobrenome">Ferreira</span></h2>
+                
+                
+                <p>Sou desenvolvedor Front-End em formação. Atualmente estudo HTML, CSS e JavaScript, criando projetos próprios para aprimorar minhas habilidades e transformar conhecimentos em aplicações reais.</p>
+            </div>
+            <img class="foto" src="img/eu.jpeg" alt="Foto de Pedro Ferreira" >
+        </div>
+    </main>
+
+<section class="titulo-sobre" id="sobre">
+
+    <h2 class="sobre">Sobre mim</h2>
+
+    <div class="txt">
+        
+            <p>Atualmente curso Análise e Desenvolvimento de Sistemas (ADS) e venho construindo minha base em HTML, CSS e JavaScript, desenvolvendo projetos próprios para colocar em prática tudo aquilo que estou aprendendo</p>
+
+        <p>Gosto especialmente de trabalhar com interfaces, pensando não apenas em como uma página fica visualmente, mas também em responsividade, organização, usabilidade e experiência do usuário.</p>
+
+        <p>Minha jornada na programação ainda está no começo, mas estou constantemente buscando evoluir. Cada projeto é uma oportunidade para aprender algo novo, corrigir erros, experimentar soluções diferentes e me tornar um desenvolvedor melhor.</p>
+
+        <p>Também estou começando a aprofundar meus conhecimentos em Git, GitHub e boas práticas de desenvolvimento, construindo aos poucos uma base sólida para minha carreira.</p>
+
+        <p>Meu objetivo é conquistar minha primeira oportunidade na área de desenvolvimento Front-End e transformar essa paixão por tecnologia em uma carreira profissional.</p>
+    
+      
+    </div>
+
+  </section>
+
+ <section class="materias">      
+    <div class="habilidades-box">
+        <h2 class="habilidades" style="color: #fff;">Habilidades</h2>
+        <ul class="menu-sobre">
+            <li class="html">HTML</li>
+            <li class="css">CSS</li>
+            <li class="javascript">JavaScript</li>
+            <li class="ads">Cursando ADS</li>
+        </ul>
+    </div>
+</section>
+
+
+
+        <section class="trabalhos" id="projetos">
+            <h2 class="sobre-projeto">Projetos</h2>
+
+        <div class="projetos">
+                <div class="clone-mercado">
+                <a href="https://coepddr-7.github.io/clone-mercado-livre/" target="_blank" class="mercado"><img src="img/mercado livre.webp" alt="mercado-livre" class="mercado-2"></a>
+                <h2>Clone-mercado livre</h2> 
+                <br>
+                <p class="sobre-clone"><strong>Explorando a construção de uma interface <br> inspirada em um e-commerce.</strong></p>
+            </div>
+        
+            <div class="petshop">
+                <a href="https://coepddr-7.github.io/layout-petshop/" target="_blank"> <img src="img/topo.png" alt="petshop" class="img-pet"></a>
+                <h2 class="sobre-petshop">Petshop</h2> 
+                <p><strong>Fiz esse layout no curso na Udemy</strong></p>
+            </div>
+
+            <div class="page-vendas">
+                <a href="https://coepddr-7.github.io/Page-vendas/" target="_blank"> <img src="img/pgvendas.webp" alt="logo" class="page-vnd"></a>
+
+                <h2 class="sobre-page">Layout sobre vendas</h2>
+                <p><strong>Criei esse layout para praticar minhas <br>habilidades  de design e desenvolvimento.</strong></p>
+
+            </div>
+        </div>
+    </section>
+
+        <footer class="final" id="contato">
+            <div class="images-final">
+                <a href="https://github.com/Coepddr-7" target="_blank"><img src="img/placa-do-github.png" alt="github" ></a>
+                <a href="https://www.linkedin.com/in/pedro-ferreira-879594291/"><img src="img/linkedin.png" alt="linked"></a>
+                <a href="https://www.facebook.com/juniorfandrade"><img src="img/face.png" alt="face" class="face"></a>
+            </div>
+            <br>
+            <p class="final-2">&copy; PedroDev 2026 - Todos os direito reservados.</p>
+
+        </footer>
+
+    <script>
+    const hamburguer = document.getElementById("hamburguer");
+    const menu = document.getElementById("menu");
+
+    hamburguer.addEventListener("click", () => {
+    hamburguer.classList.toggle("ativo");
+    menu.classList.toggle("ativo");
+});
+    </script>
+</body>
+</html>
