@@ -1,0 +1,427 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Fundo */
+    --bg: #070B1A;
+    --surface: #111827;
+    --surface-light: #1E293B;
+
+    /* Cores principais */
+    --primary: #7C3AED;
+    --primary-light: #A855F7;
+
+    --secondary: #22C55E;
+    --secondary-light: #4ADE80;
+
+    /* Destaques */
+    --accent: #00E5A8;
+
+    /* Textos */
+    --text: #F8FAFC;
+    --text-muted: #94A3B8;
+
+    /* Bordas */
+    --border: #2D3748;
+}
+
+body {
+    font-family:verdana, sans-serif;
+    background-color: white; 
+    color: #a486d4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to top, white, black);
+  padding: 10px;
+  
+
+}
+
+.cmc {
+    color: #fff;
+    font-family: arial, sans-serif;
+}
+
+.nome {
+    color: #fff;
+}
+
+.dev {
+    color: red;
+}
+
+.menu {
+   display: flex;
+   gap: 20px;
+   list-style: none;
+   font-size: 1.2rem;
+   font-family:arial, sans-serif;
+   padding-top: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+     transition: 0.2s;
+}
+
+a:hover {
+    color: red;
+}
+
+.hamburguer {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: black;
+    box-shadow: 5px 5px 10px #3b0303;
+    font-family: verdana, sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    font-size:20px;
+    justify-content: space-between;
+}
+
+.texto {
+    max-width: 800px;
+    margin-left: 5%;
+}
+
+.sobrenome {
+    color: red;
+}
+
+.foto {
+    width: 400px;
+    height: 420px;
+    border-radius: 50%;
+    border: 5px solid red;
+    margin-right: 20%;
+     object-fit: cover; 
+     flex-shrink: 1;
+}
+
+.titulo-sobre {
+    margin-bottom: 20px;
+    color: #fff;
+    background-color:  black;
+    box-shadow: 5px 5px 10px #3b0303;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.sobre {
+    font-family: verdana, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: xx-large;
+    margin-right: 70px;
+}
+
+.persona {
+   width: 100px;
+   padding: 20px;
+   margin-left: 60px;
+   flex-direction: column;
+   color: #fff;
+}
+
+
+.txt {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 40px;
+    font-weight: bold;
+}
+
+.materias { 
+    width: 100%; 
+    gap: 20px; 
+} 
+
+
+.materias {
+    width: 100%;
+}
+
+.habilidades-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #3b0303;
+}
+
+.menu-sobre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+}
+
+.html,
+.css,
+.javascript,
+.ads {
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 20px 25px;
+    min-width: 100px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.html {
+    background-color: red;
+
+}
+
+.css {
+    background-color: blue;
+}
+
+.javascript {
+    background-color: yellow;
+}
+
+.ads {
+    background-color: green;
+}
+.trabalhos {
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    background-color:black;
+    box-shadow: 5px 5px 10px #3b0303;
+    border-radius: 20px
+}
+
+.sobre-projeto {
+  text-align: center;  
+}
+
+.projetos {
+    display: flex;
+    gap: 30px;
+}
+
+.clone-mercado {
+    color: var(--text);
+    text-align: center;
+}
+
+.sobre-clone {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: justify;
+}
+
+.mercado {
+  color: var(--text-muted);  
+    
+}
+
+.mercado-2 {
+    border-radius: 30px;
+    width: 150px;
+}
+
+.img-pet {
+    width: 250px;
+}
+
+.sobre-petshop {
+    text-align: center;
+}
+
+.petshop {
+    color: #fff;
+    text-align: center;
+}
+
+
+.page-vendas {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-vnd {
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.final {
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to bottom, white, black);
+    text-align: center;
+    color: #fff;
+}
+
+.images-final {
+   transition: 0.3s ease;
+}
+
+.images-final img:hover {
+    filter: brightness(0) saturate(100%)
+            invert(72%)
+            sepia(95%)
+            saturate(1000%)
+            hue-rotate(90deg)
+            brightness(95%);
+}
+
+.insta {
+    width: 27px;
+}
+
+.final-2 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+@media screen and (max-width: 1020px){
+
+      .menu{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background: black;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .menu.ativo{
+        display: flex;
+    }
+
+    .hamburguer{
+        display: block;
+        color: red;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        
+    }
+
+    .foto {
+        order: 2;
+        width: 200px;
+        height: 210px;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+
+    .sobre {
+    font-family: verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+    .txt {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+    .habilidades {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+    .habilidades-box {
+    display: flex;
+}
+
+    .menu-sobre {
+    gap: 10px;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+    .projetos {
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+    .img-pet {
+    width: 250px;
+    align-items: center;
+}
+
+    .page-vendas {
+    color: #fff;
+    align-self: start;
+}
+
+    .sobre-page {
+       font-size: 1.5rem;
+    }
+
+   .page-vnd {
+    display: block;
+    margin: 0 auto 30px;
+    width: 250px;
+}
+}
+
+@media screen and (max-width: 1280px) {
+    
+     .foto {
+        order: 2;
+        width: 200px;
+        height: 210px;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+}
